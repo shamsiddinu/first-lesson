@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone E-Commerce</title>
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/f4e855eb8f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container pt-3">
+            <div class="input-group">
+                <a class="navbar-brand" href="#">
+                    <img class="me-3 me-md-5" src="img/logo.svg" alt="">
+                </a>
+                <input class="form-control" placeholder="Search...." type="text">
+                <button class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">All Type</button>
+                <button title="Search" class="btn btn-primary d-none d-lg-block">
+                    <i class="fa-solid fa-magnifying-glass rounded d-none d-lg-block"></i>
+                </button>
+
+                <div class="ms-md-5 mt-2 mt-md-0">
+                    <a type="button" class="btn btn-outline-primary fw-500 rounded">
+                        <i class="fa-solid fa-user me-lg-2"></i>
+                        <p class="d-one d-lg-inline">Sign In</p>
+                    </a>
+                    <a type="button" class="btn btn-outline-primary fw-500 rounded">
+                        <i class="fa-solid fa-heart me-lg-2"></i>
+                        <p class="d-one d-lg-inline">Sign In</p>
+                    </a>
+                    <a type="button" class="btn btn-outline-primary fw-500 rounded">
+                        <i class="fa-solid fa-cart-shopping me-lg-2"></i>
+                        <p class="d-one d-lg-inline">My Card</p>
+                    </a>
+                </div>
+                <ul class="dropdown-menu dropdown-menu-start">
+                    <li><a href="#" class="dropdown-item">Best</a></li>
+                    <li><a href="#" class="dropdown-item">Special</a></li>
+                    <li><a href="#" class="dropdown-item">Latest</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        <div class="container mt-3">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hot offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gift boxes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu item</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu name</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Others
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                </div>
+        </div>
+        <div class="bg-primary py-5">
+            <div class="container py-5 text-light">
+                <h1 class="display-1">Best products &<br> Brands in our store</h1>
+                <p class="lead">Trendy Products, Factory Prices, Excellent Service</p>
+                <a id="shop-btn" href="#" role="button" class="btn btn-warning fs-5 text-light ">Shop
+                    now</a>
+                <a href="#" role="button" class="btn btn-light text-dark fs-5  ">Learn more</a>
+            </div>
+        </div>
+        <div class="py-5">
+            <div class="container">
+                <h3 class="fw-bold mb-sm mb-md-5 text-center text-md-start">New Products</h3>
+                <div class="row g-3 d-flex justify-content-evenly">
+                    <div id="card-width" class="card">
+                        <img class="img" width="100%" src="img/GoPro HERO6 4K Action.jpg" alt="Camera">
+                        <div class="card-body">
+                            <hr>
+                            <h5 class="card-title">500$</h5>
+                            <h6 class="card-muted card-subtitle">Camera Go Pro</h6>
+                            <a role="button" class="btn btn-primary mt-2">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div id="card-width" class="card">
+                        <img class="img" width="100%" src="img/Apple iPhone 12 Pro 6.1 RAM.jpg" alt="Camera">
+                        <div class="card-body">
+                            <hr>
+                            <h5 class="card-title">1200$</h5>
+                            <h6 class="card-muted card-subtitle">Camera Go Pro</h6>
+                            <a role="button" class="btn btn-primary mt-2">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div id="card-width" class="card">
+                        <img class="img" width="100%" src="img/Apple Watch Series 1 Sport.jpg" alt="Camera">
+                        <div class="card-body">
+                            <hr>
+                            <h5 class="card-title">550$</h5>
+                            <h6 class="card-muted card-subtitle">Camera Go Pro</h6>
+                            <a role="button" class="btn btn-primary mt-2">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div id="card-width" class="card">
+                        <img class="img" width="100%" src="img/Canon camera 20x zoom, Black.jpg" alt="Camera">
+                        <div class="card-body">
+                            <hr>
+                            <h5 class="card-title">200$</h5>
+                            <h6 class="card-muted card-subtitle">Camera Go Pro</h6>
+                            <a role="button" class="btn btn-primary mt-2">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div id="card-width" class="card">
+                        <img class="img" width="100%" src="img/boxes.jpg" alt="Camera">
+                        <div class="card-body">
+                            <hr>
+                            <h5 class="card-title">130$</h5>
+                            <h6 class="card-muted card-subtitle">Camera Go Pro</h6>
+                            <a role="button" class="btn btn-primary mt-2">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div id="card-width" class="card">
+                        <img class="img" width="100%" src="img/Gaming Headset 32db Black.jpg" alt="Camera">
+                        <div class="card-body">
+                            <hr>
+                            <h5 class="card-title">450$</h5>
+                            <h6 class="card-muted card-subtitle">Camera Go Pro</h6>
+                            <a role="button" class="btn btn-primary mt-2">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div id="card-width" class="card">
+                        <img class="img" width="100%" src="img/blue bag.jpg" alt="Camera">
+                        <div class="card-body">
+                            <hr>
+                            <h5 class="card-title">300$</h5>
+                            <h6 class="card-muted card-subtitle">Camera Go Pro</h6>
+                            <a role="button" class="btn btn-primary mt-2">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div id="card-width" class="card">
+                        <img class="img" width="100%" src="img/fruit.jpg" alt="Camera">
+                        <div class="card-body">
+                            <hr>
+                            <h5 class="card-title">30$</h5>
+                            <h6 class="card-muted card-subtitle">Camera Go Pro</h6>
+                            <a role="button" class="btn btn-primary mt-2">Add to Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="py-5 px-3">
+            <div class="container py-5 ">
+                <h3 class="fw-bold text-md-start  mb-3">Why Choose us?</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <div class="bg-white shadow-sm rounded-circle p-3">
+                            <i class="fa-solid fa-money-bill fs-1 text-primary"></i>
+                        </div>
+                        <div class="ms-3 mt-md-5">
+                            <h6 class="h6 fw-bold">Responsible Prices</h6>
+                            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                                consectetur iusto neque necessitatibus at unde, voluptatibus vero, aliquam pariatur
+                                vitae earum quibusdam eius optio corrupti culpa quod dicta exercitationem eum?</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <div class="bg-white shadow-sm rounded-circle p-3">
+                            <i class="fa-solid fa-money-bill fs-1 text-primary"></i>
+                        </div>
+                        <div class="ms-3 mt-md-5">
+                            <h6 class="h6 fw-bold">Responsible Prices</h6>
+                            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                                consectetur iusto neque necessitatibus at unde, voluptatibus vero, aliquam pariatur
+                                vitae earum quibusdam eius optio corrupti culpa quod dicta exercitationem eum?</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <div class="bg-white shadow-sm rounded-circle p-3">
+                            <i class="fa-solid fa-money-bill fs-1 text-primary"></i>
+                        </div>
+                        <div class="ms-3 mt-md-5">
+                            <h6 class="h6 fw-bold">Responsible Prices</h6>
+                            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                                consectetur iusto neque necessitatibus at unde, voluptatibus vero, aliquam pariatur
+                                vitae earum quibusdam eius optio corrupti culpa quod dicta exercitationem eum?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pb-5">
+            <div class="container py-5">
+                <h3 class="h3 fw-bold mb-3 text-center">Blog Posts</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <img class="bg-rounded" src="img/boxes.jpg" width="250" alt="boxes">
+                        <div class="mt-3">
+                            <a class="fw-bold" href="#">How to promite brands</a>
+                            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, maxime?</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <img class="bg-rounded" src="img/boxes.jpg" width="250" alt="boxes">
+                        <div class="mt-3">
+                            <a class="fw-bold" href="#">How to promite brands</a>
+                            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, maxime?</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <img class="bg-rounded" src="img/boxes.jpg" width="250" alt="boxes">
+                        <div class="mt-3">
+                            <a class="fw-bold" href="#">How to promite brands</a>
+                            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, maxime?</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <img class="bg-rounded" src="img/boxes.jpg" width="250" alt="boxes">
+                        <div class="mt-3">
+                            <a class="fw-bold" href="#">How to promite brands</a>
+                            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, maxime?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+
+
+</body>
+
+</html>
